@@ -19,10 +19,10 @@ head:
         # The start URL of the web application
         start_url: https://www.jayhsu.org/
         # The default theme color for the application
-        theme_color: "#003300"
+        theme_color: '#003300'
         # A placeholder background color for the application page to display
         # before its stylesheet is loaded
-        background_color: "#003300"
+        background_color: '#003300'
         # The preferred display mode for the website
         display: standalone
         # Image files that can serve as application icons for different contexts
@@ -33,7 +33,7 @@ head:
                 # A string containing space-separated image dimensions
                 sizes: ''
                 # A hint as to the media type of the image
-                type: 
+                type:
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
@@ -51,7 +51,7 @@ head:
         image: 
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 
+        site_name:
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
         author: 
@@ -105,20 +105,20 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        首页: /
+        归档: /archives
+        分类: /categories
+        标签: /tags
+        关于: /about
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/sdvina
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © 2019
+    copyright: ''
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -129,7 +129,7 @@ footer:
             url: https://creativecommons.org/licenses/by/4.0/
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/sdvina
 # Article related configurations
 article:
     # Code highlight settings
@@ -226,14 +226,14 @@ widgets:
     # Profile widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: profile
         # Author name
-        author: Your name
+        author: Jay Hsu
         # Author title
-        author_title: Your title
+        author_title:
         # Author's current location
-        location: Your location
+        location:
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
@@ -241,18 +241,18 @@ widgets:
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: https://github.com/ppoffice
+        follow_link: https://github.com/sdvina
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: https://github.com/ppoffice
+                url: https://github.com/sdvina
             Facebook:
                 icon: fab fa-facebook
                 url: https://facebook.com
             Twitter:
                 icon: fab fa-twitter
-                url: https://twitter.com
+                url: https://twitter.com/sdvina
             Dribbble:
                 icon: fab fa-dribbble
                 url: https://dribbble.com
@@ -277,8 +277,7 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+            Github: https://github.com/sdvina
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
